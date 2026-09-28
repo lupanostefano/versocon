@@ -19,8 +19,8 @@ from urllib.error import URLError
 
 from app.version import __version__
 
-RELEASES_API = "https://api.github.com/repos/hikarihasegawa/versocon/releases/latest"
-RELEASES_PAGE = "https://github.com/hikarihasegawa/versocon/releases"
+RELEASES_API = "https://api.github.com/repos/lupanostefano/versocon/releases/latest"
+RELEASES_PAGE = "https://github.com/lupanostefano/versocon/releases"
 STORE_URL = "https://apps.microsoft.com/detail/9ngcr80nk3kc"
 _TIMEOUT_S = 6.0
 # GetCurrentPackageFullName: ERROR_INSUFFICIENT_BUFFER = processo con identità

@@ -27,7 +27,7 @@ Le rispettive licenze valgono per quei componenti, non per VersoCon.
    application is available from the build provider
    (https://www.gyan.dev/ffmpeg/builds/ — source commit on the build page)
    and, for three years from distribution, on request through the project
-   repository: https://github.com/hikarihasegawa/VersoCon
+   repository: https://github.com/lupanostefano/versocon
 
 Il codice sorgente corrispondente dei binari ffmpeg qui distribuiti è
 disponibile presso il fornitore della build (pagina sopra) e, per tre anni

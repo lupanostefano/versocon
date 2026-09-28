@@ -25,7 +25,7 @@ client = TestClient(app)
 def _fake_release(monkeypatch, tag):
     monkeypatch.setattr(
         upd, "_fetch_latest",
-        lambda timeout: {"tag_name": tag, "html_url": "https://github.com/hikarihasegawa/versocon/releases/tag/x"},
+        lambda timeout: {"tag_name": tag, "html_url": "https://github.com/lupanostefano/versocon/releases/tag/x"},
     )
 
 

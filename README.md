@@ -7,7 +7,7 @@ don't want their documents in someone else's cloud: HEIC photos from your iPhone
 PDFs to edit and sign, scans to clean, videos to convert. Everything runs on
 `127.0.0.1`, offline, with no account and no telemetry.
 
-[![Latest release](https://img.shields.io/github/v/release/hikarihasegawa/versocon?label=release&color=4dabf7)](https://github.com/hikarihasegawa/versocon/releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/lupanostefano/versocon?label=release&color=4dabf7)](https://github.com/lupanostefano/versocon/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-4dabf7?logo=mit&logoColor=white)](LICENSE.md)
 [![Windows](https://img.shields.io/badge/Windows-10%2F11-0078d6?logo=windows&logoColor=white)](#install)
 [![Offline](https://img.shields.io/badge/network-not%20required-2b8a3e)](#privacy-and-security)
@@ -51,12 +51,12 @@ PDFs to edit and sign, scans to clean, videos to convert. Everything runs on
 
 ### Windows (recommended)
 
-1. Download `versocon-setup-X.Y.Z.exe` from [Releases](https://github.com/hikarihasegawa/versocon/releases/latest) and run it.
+1. Download `versocon-setup-X.Y.Z.exe` from [Releases](https://github.com/lupanostefano/versocon/releases/latest) and run it.
 2. Or use a package manager:
 
 ```powershell
 winget install HikariHasegawa.VersoCon     # official Windows package manager (submission under review)
-scoop bucket add HikariHasegawa https://github.com/HikariHasegawa/bucket
+scoop bucket add HikariHasegawa https://github.com/lupanostefano/bucket
 scoop install versocon                      # Scoop, from the author's bucket (live)
 ```
 
@@ -68,7 +68,7 @@ open-source build. That is a generic caution, not a malware report.
 
 Before you run it:
 1. Verify the **SHA-256** of the downloaded file against the one on the
-   [Releases page](https://github.com/hikarihasegawa/versocon/releases/latest)
+   [Releases page](https://github.com/lupanostefano/versocon/releases/latest)
    (v0.3.3: `692EE29A7CEABCDCB8CB7D191DCA4F4E2207AD13FDAE04C37DAFCCBFAA378445`).
 2. Optional: upload your copy to [VirusTotal](https://www.virustotal.com/gui/home/url).
 3. If everything checks out: **More info → Run anyway / Esegui comunque**.
@@ -83,7 +83,7 @@ The full guide is in [docs/security.md](docs/security.md) (English / Italiano).
 ### From source
 
 ```bash
-git clone https://github.com/hikarihasegawa/versocon.git
+git clone https://github.com/lupanostefano/versocon.git
 cd versocon
 python -m venv .venv
 .venv\Scripts\activate        # Windows
