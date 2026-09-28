@@ -3,7 +3,7 @@
 
 #define MyAppName      "VersoCon"
 #define MyAppFullName  "VersoCon - Convertitore di File"
-#define MyAppVersion   "0.3.3"
+#define MyAppVersion   "0.3.4"
 #define MyAppPublisher "hikari22"
 #define MyAppURL       "https://ko-fi.com/hikari22"
 #define MyAppExeName   "Versocon.exe"
