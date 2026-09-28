@@ -1,0 +1,1 @@
+v0.3.4 — Sicurezza: anteprima PDF protetta contro la vulnerabilità CVE-2024-4367 (pdf.js): il percorso di codice vulnerabile è ora disattivato. Nessun altro cambiamento: anteprime, PDF protetti, pulizia scansioni, firme e tutti gli altri flussi funzionano come nella v0.3.3.

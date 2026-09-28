@@ -1,0 +1,1 @@
+v0.3.4 — Security: PDF preview hardened against CVE-2024-4367 (pdf.js): the vulnerable code path is now disabled. Nothing else changed: previews, password-protected PDFs, scan cleanup, signing and every other flow work exactly as in v0.3.3.
