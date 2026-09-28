@@ -8,7 +8,7 @@
 ## SHA-256
 
 `versocon-setup-0.3.4.exe`
-`<SHA-256 aggiornato a build CI completata>`
+`658C314CC440F1AAC226DA1932EAA7C2BBAA59C8FA51965B017A8C6CECEDC1D2`
 
 (Windows: `Get-FileHash versocon-setup-0.3.4.exe -Algorithm SHA256`).
 

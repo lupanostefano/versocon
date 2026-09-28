@@ -55,7 +55,7 @@ PDFs to edit and sign, scans to clean, videos to convert. Everything runs on
 2. Or use a package manager:
 
 ```powershell
-winget install HikariHasegawa.VersoCon     # official Windows package manager (submission under review)
+winget install HikariHasegawa.VersoCon     # official Windows package manager (live)
 scoop bucket add HikariHasegawa https://github.com/lupanostefano/bucket
 scoop install versocon                      # Scoop, from the author's bucket (live)
 ```
@@ -69,7 +69,7 @@ open-source build. That is a generic caution, not a malware report.
 Before you run it:
 1. Verify the **SHA-256** of the downloaded file against the one on the
    [Releases page](https://github.com/lupanostefano/versocon/releases/latest)
-   (v0.3.3: `692EE29A7CEABCDCB8CB7D191DCA4F4E2207AD13FDAE04C37DAFCCBFAA378445`).
+   (v0.3.4: `658C314CC440F1AAC226DA1932EAA7C2BBAA59C8FA51965B017A8C6CECEDC1D2`).
 2. Optional: upload your copy to [VirusTotal](https://www.virustotal.com/gui/home/url).
 3. If everything checks out: **More info → Run anyway / Esegui comunque**.
 

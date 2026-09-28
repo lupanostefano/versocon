@@ -1,15 +1,15 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 PackageIdentifier: HikariHasegawa.VersoCon
-PackageVersion: 0.3.3
+PackageVersion: 0.3.4
 PackageLocale: en-US
 PackageName: VersoCon
 Publisher: hikari22
-PublisherUrl: https://github.com/HikariHasegawa
-PublisherSupportUrl: https://github.com/HikariHasegawa/versocon/issues
+PublisherUrl: https://github.com/lupanostefano
+PublisherSupportUrl: https://github.com/lupanostefano/versocon/issues
 Author: HikariHasegawa
 License: MIT
-LicenseUrl: https://github.com/HikariHasegawa/versocon/blob/master/LICENSE.md
-PackageUrl: https://github.com/HikariHasegawa/versocon
+LicenseUrl: https://github.com/lupanostefano/versocon/blob/master/LICENSE.md
+PackageUrl: https://github.com/lupanostefano/versocon
 ShortDescription: Free, 100% offline file converter for HEIC photos, PDFs and video.
 Description: |-
   VersoCon is a free, 100% offline file converter: HEIC photos, PDFs (edit, sign,
@@ -23,6 +23,6 @@ Tags:
   - video
   - offline
   - privacy
-ReleaseNotesUrl: https://github.com/HikariHasegawa/versocon/releases/tag/v0.3.3
+ReleaseNotesUrl: https://github.com/lupanostefano/versocon/releases/tag/v0.3.4
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
