@@ -1345,7 +1345,7 @@
     setEmpty(IC.t("dyn.ed_page_loading"));
     try {
       const buf = await file.arrayBuffer();
-      edPdfDoc = await window.pdfjsLib.getDocument({ data: buf, password: edPdfPw || undefined }).promise;
+      edPdfDoc = await window.pdfjsLib.getDocument({ data: buf, password: edPdfPw || undefined, isEvalSupported: false }).promise;
       edPageCount = edPdfDoc.numPages;
       edCurPage = Math.min(Math.max(1, keepPage), edPageCount);
       syncPager();
@@ -2263,7 +2263,7 @@
 
   async function renderPdfFirstPage(data, canvas) {
     if (!window.pdfjsLib) throw new Error(IC.t("dyn.pdfjs_missing"));
-    const doc = await window.pdfjsLib.getDocument({ data }).promise;
+    const doc = await window.pdfjsLib.getDocument({ data, isEvalSupported: false }).promise;
     try {
       const page = await doc.getPage(1);
       const base = page.getViewport({ scale: 1 });
